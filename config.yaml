@@ -1,0 +1,28 @@
+- address: 10.84.192.15:50052
+  user: mhenkel
+  password: kadalh12
+  cid: cid
+  tls:
+    cert_file: tls/qfx2.crt
+    key_file: tls/qfx2.key
+    ca_file: tls/ca.crt
+    server_name: ctolab-b2-qfx2.englab.juniper.net
+  paths:
+  - path: /junos/system/linecard/firewall/
+    freq: 2000
+  - path: /junos/system/linecard/qmon-sw/
+    freq: 2000
+- address: 10.84.192.16:50052
+  user: mhenkel
+  password: kadalh12
+  cid: cid
+  tls:
+    cert_file: tls/qfx3.crt
+    key_file: tls/qfx3.key
+    ca_file: tls/ca.crt
+    server_name: ctolab-b2-qfx3.englab.juniper.net
+  paths:
+  - path: /junos/system/linecard/firewall/
+    freq: 2000
+  - path: /junos/system/linecard/qmon-sw/
+    freq: 2000
